@@ -1,0 +1,9 @@
+services:
+  web1:
+    image: divyasharma1489/docker-compose-image
+    ports:
+      - "3000:3000"
+  web2:
+    image: divyasharma1489/docker-compose-image
+    ports:
+      - "3001:3000"
