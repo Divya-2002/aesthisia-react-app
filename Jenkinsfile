@@ -5,7 +5,7 @@ pipeline {
             steps {
                 script {
                     git branch: 'main',
-                        credentialsId: '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',
+                        credentialsId: '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',
                         url: 'https://github.com/Divya-2002/aesthisia-react-app.git'
                 }
             }
